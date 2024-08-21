@@ -1,0 +1,26 @@
+/* footer.css */
+.footer {
+    background-color: #004d00; /* Karadeniz doğasını yansıtan koyu yeşil tonunda arka plan rengi */
+    color: #e0f7fa; /* Beyazımsı açık mavi yazı rengi, Karadeniz’in temiz havasını yansıtır */
+    text-align: center;
+    padding: 20px 0; /* Daha geniş bir üst ve alt boşluk */
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0; /* Sayfanın alt kısmında sabitle */
+    z-index: 1000; /* İçeriğin üstünde görünmesini sağlar */
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem; /* Yazı boyutunu biraz küçültmek */
+}
+
+.footer a {
+    color: #e0f7fa; /* Bağlantılar için aynı renk */
+    text-decoration: none; /* Alt çizgi olmadan */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Üzerine gelindiğinde alt çizgi */
+}

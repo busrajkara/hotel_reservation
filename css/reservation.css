@@ -1,0 +1,23 @@
+/* reservation.css */
+
+/* Rezervasyon Formu */
+.reservation-form {
+    background-color: #f8f9fa; /* Açık gri arka plan rengi */
+    border-radius: 10px; /* Yuvarlak köşeler */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hafif gölge */
+    padding: 20px; /* İç boşluk */
+}
+
+.reservation-form .form-control {
+    border-radius: 5px; /* Yuvarlak köşeler */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); /* İç gölge */
+}
+
+.reservation-form .btn-primary {
+    background-color: #004080; /* Koyu mavi buton rengi */
+    border-color: #004080; /* Buton kenar rengi */
+}
+
+.reservation-form .btn-primary:hover {
+    background-color: #003366; /* Hover efekti için koyu mavi */
+}

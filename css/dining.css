@@ -1,0 +1,35 @@
+/* dining.css */
+
+/* Restoran ve Menü Kartları Tasarımı */
+.menu-card, .beverage-card {
+    border: none; /* Kart kenar boşluklarını kaldırır */
+    transition: transform 0.3s ease-in-out; /* Kartın hover efekti için geçiş efekti */
+}
+
+.menu-card:hover, .beverage-card:hover {
+    transform: scale(1.05); /* Kartın hover üzerine büyümesini sağlar */
+}
+
+.card-img-top {
+    height: 200px; /* Resim yüksekliğini ayarlar */
+    object-fit: cover; /* Resmin kesilmeden uygun şekilde görünmesini sağlar */
+}
+
+.card-body {
+    text-align: center; /* Kart içeriğini ortalar */
+}
+
+.card-price {
+    font-size: 1.25rem; /* Fiyat yazısının boyutunu ayarlar */
+    color: #007bff; /* Fiyat yazısının rengini ayarlar */
+    margin: 10px 0; /* Fiyat yazısı için üst ve alt boşluk ekler */
+}
+
+.btn-primary {
+    background-color: #004080; /* Buton rengini ayarlar */
+    border: none; /* Buton kenarlığını kaldırır */
+}
+
+.btn-primary:hover {
+    background-color: #003366; /* Hover durumunda buton rengini koyulaştırır */
+}

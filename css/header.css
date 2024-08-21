@@ -1,0 +1,38 @@
+/* Navbar ayarları */
+.navbar {
+    padding: 1rem 2rem; /* Daha geniş üst ve alt boşluk */
+}
+
+.navbar-brand img {
+    height: 60px; /* Logo boyutunu küçült */
+    width: auto; /* Orantılı genişlik */
+}
+
+.navbar-nav {
+    gap: 1rem; /* Menü öğeleri arasındaki boşluk */
+}
+
+.nav-item {
+    margin-left: 1rem; /* Menü öğeleri arasındaki boşluk */
+}
+
+.nav-link {
+    font-size: 1rem; /* Yazı boyutunu ayarla */
+    color: #333; /* Yazı rengini koyulaştır */
+    transition: color 0.3s; /* Renk geçiş efekti */
+}
+
+.nav-link:hover {
+    color: #004080; /* Hover durumunda renk değişimi */
+}
+
+.btn-primary {
+    background-color: #004080; /* Buton rengini koyu mavi yap */
+    border: none; /* Kenarını kaldır */
+    padding: 0.5rem 1rem; /* Butonun iç boşluğu */
+    font-size: 1rem; /* Buton yazı boyutu */
+}
+
+.btn-primary:hover {
+    background-color: #003366; /* Hover durumunda koyu mavi */
+}

@@ -1,0 +1,41 @@
+/* contact.css */
+
+/* İletişim Formu */
+.contact-form {
+    background-color: #f8f9fa; /* Açık gri arka plan rengi */
+    border-radius: 10px; /* Yuvarlak köşeler */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hafif gölge */
+}
+
+.contact-form .form-control {
+    border-radius: 5px; /* Yuvarlak köşeler */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1); /* İç gölge */
+}
+
+.contact-form .btn-primary {
+    background-color: #004080; /* Koyu mavi buton rengi */
+    border-color: #004080; /* Buton kenar rengi */
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #003366; /* Hover efekti için koyu mavi */
+}
+
+/* İletişim Bilgileri */
+.contact-info {
+    background-image: url('images/contact-background.jpg'); /* Arka plan resmi */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* Beyaz yazı rengi */
+}
+
+.contact-card {
+    background-color: rgba(0, 0, 0, 0.5); /* Yarı saydam siyah arka plan */
+    border-radius: 10px; /* Yuvarlak köşeler */
+    color: #ffffff; /* Beyaz yazı rengi */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Hafif gölge */
+}
+
+.contact-card .card-title {
+    margin-bottom: 15px; /* Başlık altındaki boşluk */
+}

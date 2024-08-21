@@ -1,0 +1,25 @@
+/* experiences.css */
+
+/* Deneyim Kartları ve İçerik Tasarımı */
+.row img {
+    border-radius: 15px; /* Resimlerin köşe yuvarlaklığını ayarlar */
+    object-fit: cover; /* Resmin kesilmeden uygun şekilde görünmesini sağlar */
+    height: 100%; /* Resmin yüksekliğini ayarlar */
+}
+
+h1, h2 {
+    color: #004080; /* Başlık renkleri */
+}
+
+.experiences ul {
+    list-style-type: disc; /* Liste stilini disk yapar */
+    margin-left: 20px; /* Liste başlıkları için sol boşluk ekler */
+}
+
+.experiences ul li {
+    margin-bottom: 10px; /* Liste elemanları arasına boşluk ekler */
+}
+
+.experiences .mb-4 {
+    margin-bottom: 3rem !important; /* İçeriğin alt boşluğunu ayarlar */
+}

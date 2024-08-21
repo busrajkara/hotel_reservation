@@ -1,0 +1,17 @@
+/* gallery.css */
+
+/* Galeri Fotoğrafları ve Tasarımı */
+.gallery-item img {
+    border-radius: 15px; /* Resimlerin köşe yuvarlaklığını ayarlar */
+    object-fit: cover; /* Resmin kesilmeden uygun şekilde görünmesini sağlar */
+    width: 100%; /* Resmin genişliğini ayarlar */
+    height: 100%; /* Resmin yüksekliğini ayarlar */
+}
+
+.gallery .row {
+    margin-bottom: 1rem; /* Satırlar arasında boşluk bırakır */
+}
+
+h1 {
+    color: #004080; /* Başlık rengi */
+}
